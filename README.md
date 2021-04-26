@@ -1,4 +1,4 @@
-# Indexing-in-DB
+# Indexing-in-DB (DB Optimization and Fine Tuning)
 Indexing for improving the DB operations 
 
 https://dataschool.com/sql-optimization/how-indexing-works/
