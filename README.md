@@ -20,5 +20,7 @@ Note: We can create partial indexes also on tables: Create Index {indexName} on 
 
 ### Add unique constraint in a column: alter table {tableName} add constraint {constraintName} unique (columnName);
 
+### Transactional db query: https://www.sqlshack.com/transactions-in-sql-server-for-beginners/
+
  # Explain Options
   ![image](https://user-images.githubusercontent.com/22798697/116071456-8e2f1200-a6ab-11eb-8bef-1009f5495bd4.png)
