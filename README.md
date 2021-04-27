@@ -16,11 +16,13 @@ Note: We can create partial indexes also on tables: Create Index {indexName} on 
 
 ### After a certain period, always reindex your indexes: <br/>
 ### a) Reindex an index: reindex index {indexName <br/>
-### b) Much better is to reindex entire table: reindex table {tableName}
+### b) Much better is to reindex entire table: reindex table {tableName} <br/>
 
-### Add unique constraint in a column: alter table {tableName} add constraint {constraintName} unique (columnName);
+### Add unique constraint in a column: alter table {tableName} add constraint {constraintName} unique (columnName); <br/>
 
-### Transactional db query: https://www.sqlshack.com/transactions-in-sql-server-for-beginners/
+### Transactional db query: <br/>
+a) https://www.sqlitetutorial.net/sqlite-transaction/ <br/>
+b) https://www.sqlshack.com/transactions-in-sql-server-for-beginners/ <br/>
 
  # Explain Options
   ![image](https://user-images.githubusercontent.com/22798697/116071456-8e2f1200-a6ab-11eb-8bef-1009f5495bd4.png)
