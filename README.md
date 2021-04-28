@@ -24,5 +24,9 @@ Note: We can create partial indexes also on tables: Create Index {indexName} on 
 a) https://www.sqlitetutorial.net/sqlite-transaction/ <br/>
 b) https://www.sqlshack.com/transactions-in-sql-server-for-beginners/ <br/>
 
+### Vacuum Command
+    We should run vacuum verbose {tableName} to clean deleted entries from the table. <br/> 
+    vacuum verbose : deletes or cleans all the tables. <br/>
+
  # Explain Options
   ![image](https://user-images.githubusercontent.com/22798697/116071456-8e2f1200-a6ab-11eb-8bef-1009f5495bd4.png)
