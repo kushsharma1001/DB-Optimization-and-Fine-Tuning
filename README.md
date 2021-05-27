@@ -10,7 +10,8 @@ EXPLAIN ANALYZE SELECT * FROM friends WHERE name = 'Blake';
 If adding an index does not decrease query time, you can simply remove it from the database.
 
 ### To remove an index use the DROP INDEX {IndexName} command: DROP INDEX friends_name_asc; <br/>
-### To create index: create index {name of the index} on {tableName} (Column1, Column2 ...) <br/>
+### To create index: create index {name of the index} on {tableName} (Column1, Column2 ...)  <br/>
+ CREATE INDEX friends_name_asc ON friends(name ASC);<br/>
 Note that in multi column based index, order of columns matter. Hence, always try all permutations. <br/>
 Note: We can create partial indexes also on tables: Create Index {indexName} on {tableName} (column1, column2...) where {columnName} <50;
 
