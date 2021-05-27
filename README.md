@@ -22,7 +22,7 @@ Note: We can create partial indexes also on tables: Create Index {indexName} on 
 ### Add unique constraint in a column: alter table {tableName} add constraint {constraintName} unique (columnName); <br/>
 
 ### Transactional db query: <br/>
-a) https://www.sqlitetutorial.net/sqlite-transaction/ <br/>
+a) ACID Properties and transactional queries: https://www.sqlitetutorial.net/sqlite-transaction/ <br/>
 b) https://www.sqlshack.com/transactions-in-sql-server-for-beginners/ <br/>
 
 ### Vacuum Command
